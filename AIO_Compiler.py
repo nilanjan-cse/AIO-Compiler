@@ -66,7 +66,7 @@ class Compiler:
         if filename in self.output:
             print(self.output[filename])
         else:
-            print("There is no such file in this directory.")
+            print(filename," is not found in this directory.")
 
         return 0
 
